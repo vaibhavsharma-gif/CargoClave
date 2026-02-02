@@ -1860,21 +1860,22 @@ a:hover {
   }
 }
 
-/* --- Solutions Dynamic Teaser --- */
-.solutions-dynamic-section {
+/* --- Solutions Scroll-Hijack Section --- */
+
+/* --- Solutions Hero Tab Section (Viewport Fix) --- */
+
+.solutions-viewport-section {
   position: relative;
   height: 100vh;
-  /* Use dvh for better mobile support if supported, fallback to vh */
-  height: 100dvh;
+  min-height: 800px;
+  /* Prevent being too squashed on small laptops */
   width: 100%;
   overflow: hidden;
   background-color: var(--color-navy);
-  color: white;
-  display: flex;
-  align-items: center;
 }
 
-.dynamic-bg-container {
+/* Backgrounds - Absolute full coverage */
+.solutions-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -1883,7 +1884,7 @@ a:hover {
   z-index: 0;
 }
 
-.dynamic-bg {
+.solutions-bg-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -1891,144 +1892,233 @@ a:hover {
   height: 100%;
   background-size: cover;
   background-position: center;
-  transition: opacity 0.8s ease-in-out, transform 1.2s ease-out;
-  opacity: 0;
 }
 
-.dynamic-bg.active {
-  opacity: 1;
-  transform: scale(1.05);
-}
-
-.dynamic-overlay {
+.solutions-bg-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(1, 19, 39, 0.9) 0%, rgba(1, 19, 39, 0.6) 60%, rgba(1, 19, 39, 0.3) 100%);
+  background: linear-gradient(90deg, rgba(8, 28, 48, 0.95) 0%, rgba(8, 28, 48, 0.85) 50%, rgba(8, 28, 48, 0.5) 100%);
   z-index: 1;
 }
 
-.dynamic-content-wrapper {
+/* Content Wrapper - Flexbox for layout */
+.solutions-content-wrapper {
   position: relative;
-  z-index: 2;
+  z-index: 5;
+  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Pushes content apart */
+}
+
+/* Hero Content (Left Side) - Adjusted for vertical center balance */
+.solutions-hero-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  /* Vertically centered in the remaining space above cards */
+  max-width: 600px;
+  padding-bottom: 4rem;
+  /* Spacing from cards */
+}
+
+.solutions-badge {
+  display: inline-block;
+  background: rgba(46, 196, 182, 0.15);
+  color: var(--color-teal-primary);
+  border: 1px solid rgba(46, 196, 182, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+
+.solutions-hero-title {
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.solutions-hero-desc {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2.5rem;
+  max-width: 90%;
+}
+
+.solutions-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--color-teal-primary);
+  color: var(--color-navy);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.solutions-cta-btn:hover {
+  background: white;
+  color: var(--color-navy);
+  transform: translateX(5px);
+}
+
+/* Bottom Cards Row */
+.solutions-cards-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  height: 280px;
+  /* Fixed height for consistency */
   width: 100%;
-  padding-bottom: 200px;
-  /* Space for gallery */
 }
 
-.dynamic-text-block {
-  max-width: 650px;
+/* Tab Card Styles */
+.solution-tab-card {
+  flex: 1;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  min-width: 200px;
+  height: 100%;
 }
 
-.dynamic-gallery-wrapper {
+.tab-card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.6s ease;
+}
+
+.solution-tab-card:hover .tab-card-bg {
+  transform: scale(1.05);
+}
+
+.tab-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 15, 30, 0.85);
+  transition: background 0.4s ease;
+  z-index: 1;
+}
+
+.solution-tab-card:hover .tab-card-overlay {
+  background: rgba(0, 15, 30, 0.6);
+}
+
+.solution-tab-card.active .tab-card-overlay {
+  background: rgba(0, 15, 30, 0.3);
+}
+
+/* Active Border */
+.tab-card-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  z-index: 5;
+  transition: border-color 0.3s ease;
+  pointer-events: none;
+}
+
+.solution-tab-card.active .tab-card-border {
+  border-color: var(--color-teal-primary);
+  box-shadow: inset 0 0 20px rgba(46, 196, 182, 0.2);
+}
+
+/* Tab Icons & Text */
+.tab-card-icon {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 2;
+  transition: color 0.3s ease;
+}
+
+.solution-tab-card.active .tab-card-icon {
+  color: var(--color-teal-primary);
+}
+
+.tab-card-label {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 3;
-  padding: 3rem 0;
-  background: linear-gradient(to top, rgba(1, 19, 39, 0.8), transparent);
-}
-
-.dynamic-gallery-scroller {
-  display: flex;
-  gap: 2rem;
-  justify-content: flex-end;
-  /* Align towards right as requested */
-  padding-right: 10%;
-  /* Add spacing from the right edge */
-  padding-left: 20%;
-  /* Ensure they don't start too far left */
-  transition: transform 0.1s linear;
-  /* Smooth scroll shift */
-}
-
-.dynamic-card {
-  flex: 0 0 280px;
-  height: 180px;
-  position: relative;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  cursor: pointer;
-  border: 2px solid transparent;
-  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(5px);
-}
-
-.dynamic-card.active {
-  border-color: var(--color-teal-primary);
-  transform: translateY(-15px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-}
-
-.dynamic-card:hover:not(.active) {
-  transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.dynamic-card-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.3;
-  transition: opacity 0.3s ease;
-}
-
-.dynamic-card.active .dynamic-card-img,
-.dynamic-card:hover .dynamic-card-img {
-  opacity: 0.6;
-}
-
-.dynamic-card-content {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   padding: 1.5rem;
-}
-
-.dynamic-card-title {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
   color: white;
-  margin: 0;
-  font-size: 1.1rem;
   font-weight: 700;
+  font-size: 1.5rem;
+  z-index: 2;
 }
 
-.dynamic-card-icon {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  color: var(--color-teal-primary);
-  opacity: 0.6;
-}
+/* Responsive */
+@media (max-width: 1200px) {
+  .solutions-viewport-section {
+    height: auto;
+    min-height: 100vh;
+    padding: 6rem 0;
+    /* Let it grow naturally */
+  }
 
-.dynamic-card.active .dynamic-card-icon {
-  opacity: 1;
+  .solutions-content-wrapper {
+    display: block;
+    /* Stack vertically for safety */
+  }
+
+  .solutions-hero-content {
+    margin-bottom: 4rem;
+  }
 }
 
 @media (max-width: 768px) {
-  .solutions-dynamic-section {
-    min-height: 700px;
+  .solutions-viewport-section {
+    padding: 4rem 0;
   }
 
-  .dynamic-gallery-scroller {
-    gap: 1rem;
-    padding: 0 1rem;
-    overflow-x: auto;
-    padding-bottom: 1rem;
+  .solutions-content-wrapper {
+    padding: 0 1.5rem;
   }
 
-  .dynamic-card {
-    flex: 0 0 220px;
-    height: 140px;
+  .solutions-cards-row {
+    height: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .solution-tab-card {
+    height: 180px;
+    width: 100%;
+    flex: none;
   }
 }

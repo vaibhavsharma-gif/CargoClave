@@ -9,7 +9,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial Team",
         excerpt: "As 2026 begins, SAF has moved from an experimental fuel to a regulatory mandate. Discover the technical and economic landscape of the green sky transition.",
-        image: "https://images.unsplash.com/photo-1544016768-982d1bac5447?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/saf-aviation.jpg",
         featured: true,
         content: `
             <h2>Executive Abstract</h2>
@@ -159,7 +159,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial Team",
         excerpt: "While batteries win the last mile, hydrogen is claiming the long-haul highway. Explore the TCO parity and technical breakthroughs of 2026.",
-        image: "https://images.unsplash.com/photo-1621905252507-b354bcadc0e8?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/hydrogen-truck.jpg",
         content: `
             <h2>Executive Summary</h2>
             <p>In 2026, the long-standing debate over "Battery vs. Hydrogen" for heavy-duty transport has reached a pragmatic resolution. While Battery Electric Vehicles (BEVs) have dominated regional distribution and middle-mile logistics, Hydrogen Fuel Cell Electric Vehicles (FCEVs) have claimed the long-haul highway. Driven by technical breakthroughs in subcooled liquid hydrogen (sLH2) and the establishment of dedicated hydrogen corridors along the I-5 and I-10, FCEVs are now delivering the range and payload capacity that diesel once provided. This report analyzes the 2026 hydrogen landscape, focusing on the technical shift to liquid storage, the emergence of the $5/kg price point, and the strategic rollout of refueling infrastructure.</p>
@@ -440,7 +440,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial Team",
         excerpt: "As global trade routes face unprecedented volatility, the Trans-Caspian International Transport Route (TITR) has emerged as the essential 'Third Way' for East-West trade.",
-        image: "https://images.unsplash.com/photo-1615461066841-6116ecaaba7f?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/middle-corridor.jpg",
         content: `
             <h2>Executive Summary</h2>
             <p>In 2026, the global trade map has been redrawn. The Trans-Caspian International Transport Route (TITR), popularly known as the "Middle Corridor," has matured into a robust, high-capacity alternative to the traditional Northern Route and the volatile maritime lanes of the Red Sea. Spanning China, Central Asia, the Caspian Sea, and the South Caucasus, the corridor has achieved unprecedented efficiency, with transit times from Xi’an to Baku dropping to just 11 days. Supported by a $28 billion investment roadmap and the institutional streamlining of the "Middle Corridor Multimodal Ltd.," the route is on track to handle over 10 million tonnes of freight annually. This article explores the infrastructure breakthroughs in Kazakhstan and Azerbaijan, the digital integration of customs, and the strategic resilience the corridor provides to global shippers in an era of geopolitical volatility.</p>
@@ -486,7 +486,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial Team",
         excerpt: "2026 marks the first full operational year of the new global shipping alliance structure. Discover how the 'Four Pillars' are redrawing the waves.",
-        image: "https://images.unsplash.com/photo-1494412574643-35d32469f425?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/shipping-alliance.jpg",
         content: `
             <h2>Executive Summary</h2>
             <p>2026 marks the first full operational year of the new global shipping alliance structure, following the massive reshuffle of early 2025. The dissolution of the long-standing 2M alliance has ushered in a "Four-Pillar" marketplace: the <strong>Gemini Cooperation</strong> (Maersk and Hapag-Lloyd), the <strong>Ocean Alliance</strong>, the newly rebranded <strong>Premier Alliance</strong>, and the independent juggernaut of <strong>MSC</strong>.</p>
@@ -570,7 +570,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial Team",
         excerpt: "The 'Shortest Path' is no longer the 'Safest Path.' Explore the permanent reconfiguration of global trade routes in 2026.",
-        image: "https://images.unsplash.com/photo-1534067783941-51c9c23eea1f?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/south-china-sea.jpg",
         content: `
             <h2>Executive Summary</h2>
             <p>In 2026, the global maritime industry has accepted a fundamental truth: the "Shortest Path" is no longer the "Safest Path." Geopolitical volatility in two of the world’s most critical maritime arteries—the Red Sea and the South China Sea—has triggered a permanent strategic realignment of global trade routes. Shippers have moved beyond "temporary diversions" to "permanent reconfiguration," with the Cape of Good Hope emerging as the primary East-West transit route for nearly 30% of global container traffic.</p>
@@ -721,7 +721,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Strategy Team",
         excerpt: "Static audits are no longer enough. Leading firms are now using data-driven 'Resilience Indexes' to navigate permanent global volatility.",
-        image: "https://images.unsplash.com/photo-1454165833767-1390e1fc87a1?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/resilience-index.jpg",
         content: `
             <h2>Introduction: The "New Normal" of Volatility</h2>
             <p>In the pre-2020 era, supply chain success was measured by a single metric: **Lowest Possible Cost.** As we navigate the landscape of 2026, the paradigm has shifted. While cost remains important, the primary KPI for 2026 is <strong>Resilience</strong>.</p>
@@ -751,7 +751,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Strategy Team",
         excerpt: "Classical computers have hit a complexity wall. Discover how hybrid quantum computing is delivering a 15% 'Optimization Dividend' in 2026.",
-        image: "https://images.unsplash.com/photo-1509023467864-1ecbb3f6362d?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1000&auto=format&fit=crop",
         content: `
             <h2>Introduction: The "Complexity Wall" of Classical Computing</h2>
             <p>For decades, logistics has been haunted by the "Traveling Salesperson Problem." As global trade reached the hyper-velocity of 2026, we hit a "Complexity Wall." Classical algorithms simply could not optimize multi-modal, real-time networks fast enough to make a difference. Enter <strong>Quantum Logistics</strong>.</p>
@@ -948,7 +948,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Whitepapers Division",
         excerpt: "Move beyond the Control Tower. Discover the autonomous, self-optimizing architecture of next-generation agentic supply chains.",
-        image: "https://images.unsplash.com/photo-1551288049-bbbda50d88ad?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=1000&auto=format&fit=crop",
         content: `
             <h2>Executive Abstract</h2>
             <p>As we navigate 2026, the traditional model of supply chain management—orchestrated by human planners using static data—has hit a ceiling. This whitepaper details the transition to <strong>Agentic Supply Chains</strong>: autonomous, self-optimizing networks powered by multi-agent AI systems.</p>
@@ -1037,7 +1037,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Whitepapers Division",
         excerpt: "Build 'anti-fragile' supply chains. Discover the four pillars of the RE-2026 framework for autonomous fallback systems.",
-        image: "https://images.unsplash.com/photo-1454165833767-027ffea9e778?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/resilience-engineering.jpg",
         content: `
             <h2>Executive Abstract</h2>
             <p>Traditional risk management is superseded by <strong>Resilience Engineering</strong> in 2026. This whitepaper introduces the <strong>RE-2026 Framework</strong>, a technical standard for building "anti-fragile" supply chains through autonomous fallback systems.</p>
@@ -1164,7 +1164,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Whitepapers Division",
         excerpt: "Autonomous ships have arrived. Explore the SAP-2026 standard and the role of Remote Control Centers in safe maritime operations.",
-        image: "https://images.unsplash.com/photo-1494412574743-0194889bb8a3?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?q=80&w=1000&auto=format&fit=crop",
         content: `
             <h2>Executive Abstract</h2>
             <p>By early 2026, over 400 autonomous vessels are operational. This whitepaper details the <strong>SAP-2026 Protocol</strong> and the technical requirements for Remote Control Centers (RCCs).</p>
@@ -1196,7 +1196,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Whitepapers Division",
         excerpt: "Waste is a design flaw. Discover how 'Digital Product Passports' and CDS are turning reverse logistics into a profit center.",
-        image: "https://images.unsplash.com/photo-1532033375034-a29004e769bc?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/circular-data.jpg",
         content: `
             <h2>Executive Abstract</h2>
             <p>Sustainability in 2026 requires mandatory precision. The <strong>Circular Data Standard (CDS)</strong> provides the framework for tracking the "Return-Path" of every component.</p>
@@ -1312,7 +1312,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial",
         excerpt: "Green dots are comforting, but they are a rear-view mirror. Discover why true logistics strategy requires anticipation, not just observation.",
-        image: "https://images.unsplash.com/photo-1551288049-bbbda50d88ad?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
         content: `
             <h2>Executive Abstract</h2>
             <p>In 2026, "Real-Time Visibility" has become the most dangerous phrase in logistics. While companies spend billions on dashboards showing green dots moving across maps, they are often suffering from "Data Blindness." This post-mortem of the 2026 Visibility Bubble explores why observation is not anticipation, the difference between "Dot-on-Map" and "State-of-Asset," and how the move to <strong>Agentic Supply Chains</strong> (whitepaper-1) is turning visual dashboards into decision engines.</p>
@@ -1350,7 +1350,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial",
         excerpt: "From boring back-office to global rockstars. Why logistics has become the most 'shareable' story of 2026.",
-        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1000&auto=format&fit=crop",
+        image: "/assets/images/logistics-influencer.jpg",
         content: `
             <h2>Executive Abstract</h2>
             <p>The year 2026 has seen an unlikely cultural shift: Logistics is now "Cool." From #LogisticsCore on TikTok to livestreams of Singapore's autonomous ports reaching millions, the "Logistics Influencer" has emerged as a key figure in both corporate strategy and public perception. This post explores the "Transparency Premium," how storytelling is displacing traditional logistics marketing, and why the most successful supply chain managers of 2026 are also their brand's primary narrators.</p>
@@ -1467,7 +1467,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial",
         excerpt: "Language should move as fast as technology. If you want to lead in 2026, stop using these five linear-era terms.",
-        image: "https://images.unsplash.com/photo-1553484771-3bc06950286b?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1000&auto=format&fit=crop",
         content: `
             <h2>Executive Abstract</h2>
             <p>The language of logistics is often a decade behind its technology. As we move into the era of <strong>Quantum Advantage</strong> (whitepaper-3) and <strong>Agentic Supply Chains</strong> (whitepaper-1), continuing to use terminology from the "Container-as-Box" era isn't just inaccurate—it's strategically limiting. This blog identifies five legacy terms that are actively hindering innovation and proposes a new, bionic vocabulary for the 2026 professional.</p>
@@ -1508,7 +1508,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial",
         excerpt: "Free is an illusion. Discover the real carbon and ethical price of 'instant delivery' and the rise of 'Conscious Logistics'.",
-        image: "https://images.unsplash.com/photo-1566576721346-ddfa823930e4?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1607227063068-155823798ccd?q=80&w=1000&auto=format&fit=crop",
         content: `
             <h2>Executive Abstract</h2>
             <p>For two decades, "Free Shipping" was the ultimate conversion tool for e-commerce. As we enter 2026, the illusion of "Free" has been shattered by a combination of carbon transparency mandates, urban congestion levies, and the rise of <strong>Conscious Logistics</strong>. This blog explores the real-world impact of the "Instant Delivery" culture on the planet and the labor force, and how the move to **Circular Logistics** (insight-3) is turning "Slow Shipping" into the ultimate luxury brand.</p>
@@ -1607,7 +1607,7 @@ export const resourcesData = [
         date: "Feb 01, 2026",
         author: "CargoClave Editorial",
         excerpt: "Why the world's most ambitious minds are moving into logistics. A look at the roles of Planet Hackers and Global Orchestrators.",
-        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop",
         content: `
             <h2>Executive Abstract</h2>
             <p>"I want to work in logistics." Ten years ago, no child said this. Logistics was seen as "Trucks and Sheds"—unsexy, dirty, and analogue. In 2026, Logistics is the <strong>"Operations Center of Civilization."</strong> It is the industry of choice for the world's most ambitious minds in AI, quantum computing, ethics, and climate engineering. This blog is the "Pitch Deck" for the Class of 2026, explaining why the supply chain is the only place where you can touch the entire world simultaneously.</p>

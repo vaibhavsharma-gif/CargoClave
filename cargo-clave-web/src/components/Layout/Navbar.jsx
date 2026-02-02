@@ -37,6 +37,11 @@ const Navbar = () => {
         setIsOpen(false);
     }, [location]);
 
+    // Force "scrolled" style (solid bg, dark text) for pages without dark hero sections
+    // Specifically: Resource Detail pages (e.g. /resources/slug) but not the Hub (/resources)
+    const isResourceDetail = location.pathname.startsWith('/resources/') && location.pathname !== '/resources';
+    const useScrolledStyle = scrolled || isResourceDetail;
+
     const navLinks = [
         { name: 'Home', path: '/' },
         {
@@ -71,11 +76,11 @@ const Navbar = () => {
             left: 0,
             width: '100%',
             zIndex: 1000,
-            padding: scrolled ? '0.75rem 0' : '1.5rem 0',
+            padding: useScrolledStyle ? '0.75rem 0' : '1.5rem 0',
             transition: 'all 0.3s ease',
-            backgroundColor: scrolled ? 'rgba(255, 255, 255, 0.98)' : 'transparent',
-            backdropFilter: scrolled ? 'blur(10px)' : 'none',
-            boxShadow: scrolled ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)' : 'none',
+            backgroundColor: useScrolledStyle ? 'rgba(255, 255, 255, 0.98)' : 'transparent',
+            backdropFilter: useScrolledStyle ? 'blur(10px)' : 'none',
+            boxShadow: useScrolledStyle ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)' : 'none',
         },
         container: {
             display: 'flex',
@@ -94,7 +99,7 @@ const Navbar = () => {
             alignItems: 'center',
             gap: '0.5rem',
             zIndex: 1001,
-            color: scrolled ? '#003366' : '#ffffff', // Default to white unless specific override needed
+            color: useScrolledStyle ? '#003366' : '#ffffff', // Default to white unless specific override needed
         },
         // We need a specific check for non-home pages where navbar might need to be dark initially?
         // Assuming transparent header works everywhere or we need a prop.
@@ -120,7 +125,7 @@ const Navbar = () => {
             alignItems: 'center',
             gap: '0.35rem',
             transition: 'color 0.2s ease',
-            color: scrolled ? '#333333' : 'rgba(255, 255, 255, 0.95)',
+            color: useScrolledStyle ? '#333333' : 'rgba(255, 255, 255, 0.95)',
             position: 'relative',
             cursor: 'pointer',
             padding: '1rem 0',
@@ -154,7 +159,7 @@ const Navbar = () => {
             border: 'none',
             cursor: 'pointer',
             padding: '0.5rem',
-            color: scrolled ? '#003366' : 'white',
+            color: useScrolledStyle ? '#003366' : 'white',
         }
     };
 
@@ -162,7 +167,7 @@ const Navbar = () => {
         <nav style={styles.nav}>
             <div style={styles.container}>
                 <Link to="/" style={styles.logo}>
-                    <span style={{ color: scrolled ? '#003366' : 'white' }}>
+                    <span style={{ color: useScrolledStyle ? '#003366' : 'white' }}>
                         Cargo<span style={{ color: '#2ec4b6' }}>Clave</span>
                     </span>
                 </Link>
@@ -180,7 +185,7 @@ const Navbar = () => {
                                 style={{
                                     ...styles.navLink,
                                     // Adjust color based on scroll state
-                                    color: scrolled ? '#333333' : 'rgba(255, 255, 255, 0.95)'
+                                    color: useScrolledStyle ? '#333333' : 'rgba(255, 255, 255, 0.95)'
                                 }}
                                 onClick={(e) => link.path === '#' && e.preventDefault()}
                             >
@@ -232,7 +237,7 @@ const Navbar = () => {
                 <button
                     style={{
                         ...styles.mobileToggle,
-                        color: scrolled ? '#003366' : 'white'
+                        color: useScrolledStyle ? '#003366' : 'white'
                     }}
                     onClick={() => setIsOpen(!isOpen)}
                     aria-label="Toggle Menu"
