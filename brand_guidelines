@@ -1,0 +1,637 @@
+================================================================================
+CARGOCLAVE BRAND GUIDELINES
+Visual Identity & Design Standards
+Version 1.0 | January 2026
+================================================================================
+
+INTRODUCTION
+============
+
+This document outlines the visual identity standards for CargoClave. 
+Consistent application of these guidelines ensures a cohesive brand experience 
+across all touchpoints and reinforces our position as "The Future of Connected 
+Logistics."
+
+Our brand identity reflects the sophistication, reliability, and innovation 
+that define CargoClave. The color palette combines trust-inspiring blues with 
+energetic teal accents, creating a professional yet approachable visual 
+language.
+
+
+================================================================================
+COLOR SYSTEM
+================================================================================
+
+Our color palette is carefully curated to communicate trust, innovation, and 
+operational excellence. Each color serves a specific purpose in creating visual 
+hierarchy and brand recognition.
+
+
+PRIMARY COLORS
+==============
+
+These are the foundation of our brand identity and should be prominently 
+featured across all materials.
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ TEAL PRIMARY                                                             │
+│ Hex:  #2ec4b6                                                           │
+│ RGB:  46, 196, 182                                                      │
+│ CMYK: 76, 0, 7, 23                                                      │
+│                                                                          │
+│ Usage: Primary brand color for CTAs, interactive elements, and key      │
+│        highlights. Represents innovation and energy.                    │
+└──────────────────────────────────────────────────────────────────────────┘
+
+
+SECONDARY COLORS
+================
+
+These colors support the primary palette and provide depth and versatility to 
+our visual system.
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ NAVY BLUE                                                                │
+│ Hex:  #003366                                                           │
+│ RGB:  0, 51, 102                                                        │
+│ CMYK: 100, 50, 0, 60                                                    │
+│                                                                          │
+│ Usage: Headers, backgrounds, and text elements. Establishes trust and   │
+│        professionalism.                                                 │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ DARK TEAL                                                                │
+│ Hex:  #0f4c5c                                                           │
+│ RGB:  15, 76, 92                                                        │
+│ CMYK: 84, 17, 0, 64                                                     │
+│                                                                          │
+│ Usage: Secondary headers, accents, and hover states. Provides depth.    │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ DARK BLUE                                                                │
+│ Hex:  #013165                                                           │
+│ RGB:  1, 49, 101                                                        │
+│ CMYK: 99, 51, 0, 60                                                     │
+│                                                                          │
+│ Usage: Alternative headers and text. Creates visual variety.            │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ DEEP NAVY                                                                │
+│ Hex:  #011327                                                           │
+│ RGB:  1, 19, 39                                                         │
+│ CMYK: 97, 51, 0, 85                                                     │
+│                                                                          │
+│ Usage: Primary headings and dark backgrounds. Maximum authority.        │
+└──────────────────────────────────────────────────────────────────────────┘
+
+
+ACCENT COLORS
+=============
+
+Use these colors sparingly to add visual interest and highlight specific 
+elements.
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ BRIGHT BLUE                                                              │
+│ Hex:  #007bff                                                           │
+│ RGB:  0, 123, 255                                                       │
+│ CMYK: 100, 52, 0, 0                                                     │
+│                                                                          │
+│ Usage: Links, interactive elements, and data visualizations.            │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ CYAN BLUE                                                                │
+│ Hex:  #00a3c4                                                           │
+│ RGB:  0, 163, 196                                                       │
+│ CMYK: 100, 17, 0, 23                                                    │
+│                                                                          │
+│ Usage: Secondary buttons, charts, and decorative elements.              │
+└──────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ ROYAL BLUE                                                               │
+│ Hex:  #1142c1                                                           │
+│ RGB:  17, 66, 193                                                       │
+│ CMYK: 91, 66, 0, 24                                                     │
+│                                                                          │
+│ Usage: Accent highlights and alternative interactive states.            │
+└──────────────────────────────────────────────────────────────────────────┘
+
+
+NEUTRAL COLORS
+==============
+
+Essential for text, backgrounds, and creating visual balance.
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│ MEDIUM GRAY                                                              │
+│ Hex:  #737373                                                           │
+│ RGB:  115, 115, 115                                                     │
+│ CMYK: 0, 0, 0, 55                                                       │
+│                                                                          │
+│ Usage: Body text, secondary information, borders, and subtle UI         │
+│        elements.                                                        │
+└──────────────────────────────────────────────────────────────────────────┘
+
+Additional Neutrals:
+  • White:      #FFFFFF (primary backgrounds)
+  • Light Gray: #F5F5F5 (section backgrounds)
+  • Dark Gray:  #333333 (primary text)
+
+
+================================================================================
+TYPOGRAPHY
+================================================================================
+
+Typography is a critical component of our brand identity. Consistent use of 
+typefaces creates visual harmony and reinforces brand recognition.
+
+
+PRIMARY TYPEFACE: INTER
+========================
+
+Inter is our primary typeface for all digital and print applications. Its 
+clean, modern design ensures excellent readability across all platforms while 
+conveying professionalism and innovation.
+
+Why Inter?
+  • Designed specifically for computer screens with excellent legibility at 
+    small sizes
+  • Open source and universally available (Google Fonts)
+  • Modern geometric design with humanist warmth
+  • Comprehensive character set supporting multiple languages
+  • Multiple weights from Thin to Black for versatile design options
+
+
+FONT WEIGHTS
+------------
+
+┌──────────────┬─────────┬──────────────────────────────────────────────┐
+│ Weight       │ Value   │ Usage                                        │
+├──────────────┼─────────┼──────────────────────────────────────────────┤
+│ Light        │ 300     │ Captions, secondary information              │
+│ Regular      │ 400     │ Body text, paragraphs, general content       │
+│ Medium       │ 500     │ Subheadings, emphasized text                 │
+│ Semi-Bold    │ 600     │ Buttons, labels, navigation                  │
+│ Bold         │ 700     │ Headings, titles, strong emphasis            │
+└──────────────┴─────────┴──────────────────────────────────────────────┘
+
+
+TYPE SCALE & HIERARCHY
+=======================
+
+Consistent type sizing creates clear visual hierarchy and improves readability.
+
+┌─────────────────────┬──────────┬──────────┬──────────────────────────┐
+│ Element             │ Desktop  │ Mobile   │ Weight & Usage           │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Hero Headline (H1)  │ 56-64px  │ 36-40px  │ Bold (700)               │
+│                     │          │          │ Homepage hero sections   │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Page Title (H1)     │ 44-48px  │ 32px     │ Bold (700)               │
+│                     │          │          │ Main page headings       │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Section Title (H2)  │ 32-36px  │ 24-28px  │ Bold (700)               │
+│                     │          │          │ Section headings         │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Subsection (H3)     │ 24-28px  │ 20-24px  │ Semi-Bold (600)          │
+│                     │          │          │ Subsections              │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Small Heading (H4)  │ 20-24px  │ 18-20px  │ Semi-Bold (600)          │
+│                     │          │          │ Card titles              │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Body Large          │ 18-20px  │ 16-18px  │ Regular (400)            │
+│                     │          │          │ Lead paragraphs          │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Body Text           │ 16px     │ 16px     │ Regular (400)            │
+│                     │          │          │ Standard text            │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Small Text          │ 14px     │ 14px     │ Regular (400)            │
+│                     │          │          │ Captions, footnotes      │
+├─────────────────────┼──────────┼──────────┼──────────────────────────┤
+│ Button Text         │ 16px     │ 16px     │ Semi-Bold (600)          │
+│                     │          │          │ All buttons              │
+└─────────────────────┴──────────┴──────────┴──────────────────────────┘
+
+
+TYPOGRAPHY BEST PRACTICES
+==========================
+
+  • Line Height: Use 1.5-1.6 for body text, 1.2-1.3 for headings
+
+  • Line Length: Keep body text between 50-75 characters per line for 
+    optimal readability
+
+  • Letter Spacing: Use slight negative tracking (-0.02em) for headings 
+    above 32px
+
+  • Paragraph Spacing: Maintain 1.5em spacing between paragraphs
+
+  • Hierarchy: Always maintain clear visual hierarchy through size, weight, 
+    and color contrast
+
+  • Accessibility: Ensure minimum 4.5:1 contrast ratio for normal text, 
+    3:1 for large text (18pt+)
+
+
+SECONDARY TYPEFACE: ROBOTO MONO
+================================
+
+Roboto Mono is used exclusively for code snippets, technical data, and 
+numerical values where monospacing is beneficial.
+
+Usage:
+  • API documentation and code examples
+  • Technical specifications and hex color codes
+  • Data tables requiring column alignment
+  • Container numbers, tracking IDs, and reference codes
+
+
+================================================================================
+COLOR APPLICATION GUIDELINES
+================================================================================
+
+PRIMARY BUTTON
+==============
+  Background:  Teal Primary (#2ec4b6)
+  Text:        White (#FFFFFF)
+  Hover:       Dark Teal (#0f4c5c)
+  Border:      None
+  Padding:     16px 32px (medium)
+  Font:        Inter Semi-Bold 16px
+
+
+SECONDARY BUTTON
+================
+  Background:  Transparent / White
+  Text:        Teal Primary (#2ec4b6)
+  Border:      Teal Primary (#2ec4b6) 2px solid
+  Hover:       Background fills with Teal Primary, text becomes white
+  Padding:     16px 32px (medium)
+  Font:        Inter Semi-Bold 16px
+
+
+TEXT COLORS
+===========
+  Primary Headings:     Deep Navy (#011327)
+  Secondary Headings:   Dark Blue (#013165)
+  Body Text:            Dark Gray (#333333) or Deep Navy (#011327)
+  Secondary Text:       Medium Gray (#737373)
+  Links:                Bright Blue (#007bff)
+  Links (hover):        Cyan Blue (#00a3c4)
+
+
+BACKGROUND COLORS
+=================
+  Primary Background:   White (#FFFFFF)
+  Alternate Sections:   Light Gray (#F5F5F5)
+  Hero Sections:        Navy Blue (#003366) or Deep Navy (#011327) with 
+                        white text
+  Card Backgrounds:     White (#FFFFFF) with subtle shadow
+  Footer:               Deep Navy (#011327) with white text
+
+
+================================================================================
+SPACING SYSTEM
+================================================================================
+
+Consistent spacing creates visual rhythm and improves content hierarchy. Our 
+spacing system is based on an 8-pixel unit for mathematical precision and 
+scalability.
+
+┌─────────┬─────────┬────────────────────────────────────────────────────┐
+│ Name    │ Value   │ Usage                                              │
+├─────────┼─────────┼────────────────────────────────────────────────────┤
+│ XXS     │ 4px     │ Micro spacing within components                    │
+│ XS      │ 8px     │ Tight spacing between related elements             │
+│ SM      │ 16px    │ Standard element spacing                           │
+│ MD      │ 24px    │ Component internal padding                         │
+│ LG      │ 32px    │ Spacing between content groups                     │
+│ XL      │ 48px    │ Section spacing (mobile)                           │
+│ 2XL     │ 64px    │ Large section spacing                              │
+│ 3XL     │ 96px    │ Section spacing (desktop)                          │
+└─────────┴─────────┴────────────────────────────────────────────────────┘
+
+
+LAYOUT GRID
+===========
+  Desktop:       12-column grid, 1200-1400px max width
+  Tablet:        8-column grid
+  Mobile:        Single column, full width
+  Gutter:        24-32px (desktop), 16-24px (mobile)
+
+
+COMPONENT SPACING
+=================
+  Card Padding:           24-32px
+  Card Margin:            16-24px between cards
+  Section Padding:        64-96px top/bottom (desktop)
+                          40-60px top/bottom (mobile)
+  Container Max Width:    1200-1400px
+  Border Radius:          8-12px for cards and buttons
+  Button Padding:         12px 24px (small)
+                          16px 32px (medium)
+                          20px 40px (large)
+
+
+================================================================================
+DESIGN PRINCIPLES
+================================================================================
+
+VISUAL HIERARCHY
+================
+  1. Use color to guide attention (Teal Primary for CTAs)
+  2. Establish clear size relationships between headings
+  3. Group related content with consistent spacing
+  4. Use white space generously to improve readability
+
+
+CONSISTENCY
+===========
+  • Use the same components across all pages
+  • Maintain consistent spacing throughout
+  • Apply color palette systematically
+  • Use typography scale for all text
+
+
+ACCESSIBILITY
+=============
+  • Minimum contrast ratio: 4.5:1 for normal text
+  • Minimum contrast ratio: 3:1 for large text (18pt+)
+  • All interactive elements minimum 44x44px touch target
+  • Provide text alternatives for images
+  • Ensure keyboard navigation works throughout
+
+
+RESPONSIVE DESIGN
+=================
+  • Mobile-first approach
+  • Breakpoints: 320px (mobile), 768px (tablet), 1024px (desktop)
+  • Scale typography appropriately
+  • Adjust spacing for different viewports
+  • Ensure touch targets are adequately sized
+
+
+================================================================================
+IMPLEMENTATION
+================================================================================
+
+CSS VARIABLES
+=============
+
+For consistent implementation across web properties, use CSS custom properties:
+
+:root {
+  /* Primary Colors */
+  --color-teal-primary: #2ec4b6;
+  --color-navy: #003366;
+  --color-dark-teal: #0f4c5c;
+  --color-deep-navy: #011327;
+  --color-dark-blue: #013165;
+  
+  /* Accent Colors */
+  --color-bright-blue: #007bff;
+  --color-cyan: #00a3c4;
+  --color-royal-blue: #1142c1;
+  
+  /* Neutrals */
+  --color-gray: #737373;
+  --color-white: #FFFFFF;
+  --color-light-gray: #F5F5F5;
+  --color-dark-gray: #333333;
+  
+  /* Typography */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Roboto Mono', monospace;
+  
+  /* Spacing */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+FONT LOADING
+============
+
+Load Inter from Google Fonts for optimal performance:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+EXAMPLE BUTTON STYLES
+=====================
+
+/* Primary Button */
+.btn-primary {
+  background-color: var(--color-teal-primary);
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-dark-teal);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-teal-primary);
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 16px 32px;
+  border: 2px solid var(--color-teal-primary);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-teal-primary);
+  color: var(--color-white);
+}
+
+
+EXAMPLE CARD STYLES
+===================
+
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+
+================================================================================
+BRAND VOICE & MESSAGING
+================================================================================
+
+PRIMARY TAGLINE
+===============
+"The Future of Connected Logistics"
+
+SUPPORTING TAGLINE
+==================
+"Your entire logistics network simplified."
+
+VALUE PROPOSITION
+=================
+A comprehensive logistics management platform that empowers businesses to 
+manage cargo, freight, documents, and operations seamlessly — all from one 
+unified control center.
+
+SOLUTION TAGLINES
+=================
+  • Trade Management System: 
+    "Digitizing Shipments. Delivering Visibility."
+    
+  • Cargo Operations Management: 
+    "Manage, track and optimize your cargo operations in real time"
+    
+  • Survey Management System: 
+    "A dedicated system for managing container inspections"
+
+CORE DIFFERENTIATORS
+====================
+  • Unified platform eliminating disconnected systems
+  • End-to-end digitization replacing manual processes
+  • Real-time visibility enabling proactive decisions
+  • Modular flexibility adapting to business needs
+  • Enterprise-grade security and compliance
+  • Built for today — ready for what's next
+
+
+================================================================================
+LOGO USAGE (GUIDELINES)
+================================================================================
+
+LOGO CLEARSPACE
+===============
+Maintain minimum clearspace around the logo equal to the height of the 'C' 
+in CargoClave.
+
+MINIMUM SIZE
+============
+  Digital: 120px width minimum
+  Print: 1 inch width minimum
+
+LOGO VARIATIONS
+===============
+  • Primary Logo: Full color on white background
+  • Reversed Logo: White on dark backgrounds (Navy, Deep Navy, Dark Teal)
+  • Monochrome: Deep Navy (#011327) for single-color applications
+
+DO NOT
+======
+  • Distort or stretch the logo
+  • Change logo colors (except approved variations)
+  • Add effects (shadows, gradients, outlines)
+  • Place on busy or low-contrast backgrounds
+  • Recreate or redraw the logo
+
+
+================================================================================
+ICONOGRAPHY
+================================================================================
+
+ICON STYLE
+==========
+  • Line icons with 2px stroke weight
+  • Rounded corners (2px radius on line caps)
+  • Consistent sizing: 24px or 32px standard
+  • Color: Teal Primary (#2ec4b6) or Deep Navy (#011327)
+  • Simple, minimalist design
+
+ICON USAGE
+==========
+  • Feature icons: 48-64px
+  • Navigation icons: 24px
+  • Inline icons: 16-20px
+
+RECOMMENDED ICON SETS
+=====================
+  • Heroicons (https://heroicons.com)
+  • Lucide Icons (https://lucide.dev)
+  • Feather Icons (https://feathericons.com)
+
+
+================================================================================
+IMAGERY GUIDELINES
+================================================================================
+
+PHOTOGRAPHY STYLE
+=================
+  • Modern, professional, authentic
+  • Real logistics operations, not overly staged
+  • Natural lighting preferred
+  • Focus on: Container yards, cargo operations, shipping ports, technology 
+    interfaces, diverse professionals in logistics
+
+AVOID
+=====
+  • Generic stock photos with obvious staging
+  • Outdated or low-quality imagery
+  • Images that don't relate to logistics/supply chain
+
+IMAGE TECHNICAL REQUIREMENTS
+=============================
+  • Format: WebP (primary), JPG/PNG (fallback)
+  • Compression: Optimize for web (<200KB for most images)
+  • Resolution: 2x for retina displays
+  • Alt text: Always include for accessibility and SEO
+
+
+================================================================================
+DOCUMENT CONTROL
+================================================================================
+
+Version:        1.0
+Last Updated:   January 30, 2026
+Owner:          CargoClave Marketing & Design Team
+Contact:        reachus@cargoclave.com
+Website:        www.cargoclave.com
+
+This document is a living guideline and will be updated as the CargoClave 
+brand evolves. All team members are responsible for adhering to these 
+standards to maintain brand consistency and professionalism across all 
+touchpoints.
+
+================================================================================
+END OF DOCUMENT
+================================================================================
