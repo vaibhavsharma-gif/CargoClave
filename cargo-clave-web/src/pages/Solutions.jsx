@@ -63,13 +63,13 @@ const Solutions = () => {
             icon: <Database size={24} />,
             title: "Centralized Data",
             desc: "A single source of truth for all operations.",
-            bgImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc4b?auto=format&fit=crop&q=80&w=800"
+            bgImage: "/assets/images/centralized-data.jpg"
         },
         {
             icon: <Activity size={24} />,
             title: "Real-time Tracking",
             desc: "Live operational updates from the field.",
-            bgImage: "https://images.unsplash.com/photo-1508873535684-277a3cbcc4e8?auto=format&fit=crop&q=80&w=800"
+            bgImage: "/assets/images/real-time-tracking.jpg"
         },
         {
             icon: <Wifi size={24} />,
